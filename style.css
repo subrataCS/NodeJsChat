@@ -1,0 +1,123 @@
+body {
+    margin-top: 2rem;
+    background: #1D2B64;
+    background: -webkit-linear-gradient(to right, #F8CDDA, #1D2B64);
+    background: linear-gradient(to right, #F8CDDA, #1D2B64);
+}
+
+.navbar {
+    /* border:2px solid red; */
+    display: flex;
+    justify-content: left;
+    max-width: 80%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* padding-left: 1rem; */
+    border-radius: 5px;
+}
+
+
+.users {
+    /* border:2px solid red; */
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 2rem;
+}
+
+.user-span {
+    margin-right: 10px;
+    color: black;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.container {
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    background-color: red;
+    margin: 0rem auto;
+    height: 70vh;
+    max-width: 80%;
+    background: #1D2B64;
+    background: -webkit-linear-gradient(to right, #F8CDDA, #1D2B64);
+    background: linear-gradient(to right, #F8CDDA, #1D2B64);
+    overflow-y: auto;
+    border-radius: 5px;
+}
+
+.message {
+    background-color: grey; 
+    /* border:2px solid red; */
+    width: 30%;
+    margin: 17px 12px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.left {
+    float: left;
+    clear: both;
+    background: #348F50;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #56B4D3, #348F50);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #56B4D3, #348F50);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color:white;
+}
+
+.right {
+    float: right;
+    clear: both;
+    /* background-color: red; */
+    background: #DA22FF;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #9733EE, #DA22FF);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color:white;
+
+}
+
+
+.send {
+    position: sticky;
+    /* border:2px solid red; */
+    bottom: 0rem;
+    width: 80%;
+    margin: 1rem auto;
+    
+}
+
+#send-container {
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 80%;
+}
+
+#send-container input {
+    width: 70%;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border:none;
+    outline: 1px solid lime;
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+    outline: 1px solid lime;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+}
